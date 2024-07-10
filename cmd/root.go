@@ -37,8 +37,8 @@ func init() {
 	// will be global for your application.
 
 	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.goLocator.yaml)")
-  rootCmd.Flags().StringVarP(&address, "address","a","","Use -a [STREET] [NUMBER] [STATE] [COUNTRY] ")
-  rootCmd.MarkFlagRequired("addresss")
+  rootCmd.Flags().StringVarP(&address,"address","a","","Use -a [STREET] [NUMBER] [STATE] [COUNTRY] ")
+  rootCmd.MarkFlagRequired("address")
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
 }
